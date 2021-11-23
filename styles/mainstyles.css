@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body .container .content main{
+    border-style: dashed;
+    height: 75vh;
+}
+
+body .container .content main .main-content{
+    margin-left: 180px;
+ 
+}
