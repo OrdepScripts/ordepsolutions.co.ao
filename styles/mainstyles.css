@@ -10,11 +10,46 @@
 
 
 body .container .content main{
-    border-style: dashed;
+    color: #58d95c;
     height: 75vh;
 }
 
 body .container .content main .main-content{
-    margin-left: 180px;
- 
+    margin-left: 150px;
+}
+
+body .container .content main .main-content p{
+    margin-top: 100px;
+}
+
+/*Botões*/
+
+body .container .content main .main-content input{
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #FFFF;
+    background-color: #BF1F36;
+    border-style: none;
+    font-size: medium;
+    transition: .999s;
+
+}
+
+body .container .content main .main-content p{
+    font-size: 24px;
+}
+body .container .content main .main-content h1 .slach{
+   color: #328442;
+
+}
+
+body .container .content main .main-content input:hover{
+    background-color: #f73a56;
+    transition: .9s;
+}
+
+body .container .content main .main-content input + input{
+    margin-left: 10px;
 }
