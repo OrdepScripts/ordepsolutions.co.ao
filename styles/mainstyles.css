@@ -53,3 +53,10 @@ body .container .content main .main-content input:hover{
 body .container .content main .main-content input + input{
     margin-left: 10px;
 }
+
+body .container .content main img{
+    position: relative;
+
+    height: 500px;
+    width: 500px;
+}

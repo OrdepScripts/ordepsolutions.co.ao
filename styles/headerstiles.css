@@ -43,8 +43,4 @@ body .container .content header span{
     color: #FFF;
 }
 
-body .container .content header span:hover{
-    color: rgb(224, 209, 209);
-    background-color: #328442;
-    border-radius: 6px;
-}
+
