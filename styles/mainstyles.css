@@ -10,12 +10,17 @@
 
 
 body .container .content main{
+    border-style: dashed;
+    display: flex;
     color: #58d95c;
     height: 75vh;
 }
 
 body .container .content main .main-content{
+    flex: 1;
     margin-left: 150px;
+    border-style: dashed;
+    
 }
 
 body .container .content main .main-content p{
@@ -54,9 +59,17 @@ body .container .content main .main-content input + input{
     margin-left: 10px;
 }
 
-body .container .content main img{
-    position: relative;
 
+body .container .content main img{
+    position: fixed;
     height: 500px;
     width: 500px;
+}
+
+body .container .content main  .tecnologies{
+    border-style: dashed;
+    flex: 2;
+    display: flex;
+    position: relative;
+    left: 0px;
 }
