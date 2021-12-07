@@ -67,7 +67,7 @@ body .container .content main img{
 }
 
 body .container .content main  .tecnologies{
-    border-style: dashed;
+   
     flex: 2;
     display: flex;
     position: relative;
